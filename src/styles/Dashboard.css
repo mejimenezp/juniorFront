@@ -1,0 +1,38 @@
+/* Estilo general para el Dashboard */
+.dashboard-root {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del encabezado */
+.dashboard-header {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección de botones */
+.dashboard-actions {
+    margin-bottom: 30px;
+}
+
+
+.dashboard-button {
+    margin: 10px 20px; 
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1976d2;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: none;
+}
+
+.dashboard-button:hover {
+    background-color: #115293;
+}
+
+.dashboard-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.5);
+}
